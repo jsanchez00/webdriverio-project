@@ -1,0 +1,7 @@
+{
+    "script": "return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selectors.split(' ');\n    }\n\n    function findElement(selectors) {\n        var currentElement = document;\n        for (var i = 0; i < selectors.length; i++) {\n            // If the element is a shadow host, go into the shadowRoot\n            if (i > 0 && currentElement.shadowRoot) {\n                currentElement = currentElement.shadowRoot;\n            }\n\n            var iterSelector = selectors[i].split('::').join(' ');\n\n            if (i === selectors.length - 1 && multiple) {\n                // Final selector part and multiple=true, try to find multiple elements\n                currentElement = currentElement.querySelectorAll(iterSelector);\n            } else {\n                currentElement = currentElement.querySelector(iterSelector);\n            }\n\n            if (!currentElement) {\n                break;\n            }\n        }\n\n        return currentElement;\n    }\n\n    return findElement(selectors);\n}).apply(null, arguments)",
+    "args": [
+        "sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",
+        true
+    ]
+}

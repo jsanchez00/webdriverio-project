@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginPage.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/classPages/loginPage.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wdio.conf.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>test</find>
+      <find>firefox</find>
+      <find>save</find>
+      <find>document.</find>
+      <find>wdio.run</find>
+      <find>expect</find>
+      <find>forwardButtonSelector</find>
+      <find>screen</find>
+      <find>forward button is disabled in 5s</find>
+      <find>report</find>
+      <find>services</find>
+      <find>key</find>
+      <find>integra</find>
+      <find>browsersta</find>
+      <find>www1</find>
+      <find>error messa</find>
+      <find>chrome</find>
+      <find>service</find>
+      <find>browser</find>
+      <find>https:</find>
+      <find>rowsersta</find>
+      <find>wait</find>
+      <find>browsername</find>
+      <find>https</find>
+      <find>setVa</find>
+      <find>path</find>
+      <find>Cannot read property 'replace' of null</find>
+      <find>errorMessageSelector</find>
+      <find>browserNAme</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/webdriverio/build/lib/commands/moveToObject.js" />
+        <option value="$PROJECT_DIR$/test/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/test/crossbrowser.js" />
+        <option value="$PROJECT_DIR$/test/crossbrowser.ts" />
+        <option value="$PROJECT_DIR$/test/helloworld.js" />
+        <option value="$PROJECT_DIR$/test/classPages/index.d.ts" />
+        <option value="$PROJECT_DIR$/test/classPages/defaultPage.ts" />
+        <option value="$PROJECT_DIR$/test/index.ts" />
+        <option value="$PROJECT_DIR$/test/classPages/loginPage.ts" />
+        <option value="$PROJECT_DIR$/wdio.conf.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webdriverio-test" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="C:\Users\Jordi\Desktop\LearningProjects\webdriverio-project\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jordi\Desktop\LearningProjects\webdriverio-project\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.Login page.Login Error - After login called, errorMessage must be shown with specific text.">
+    <configuration name="run:selenium-standalone" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:selenium-standalone" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="rundadadad" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="rundadadad" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="Login page.Login Error - After login called, errorMessage must be shown with specific text." type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/index.ts</test-file>
+      <test-names>
+        <name value="Login page" />
+        <name value="Login Error - After login called, errorMessage must be shown with specific text." />
+      </test-names>
+    </configuration>
+    <list>
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.run:selenium-standalone" />
+      <item itemvalue="npm.rundadadad" />
+      <item itemvalue="Mocha.Login page.Login Error - After login called, errorMessage must be shown with specific text." />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.Login page.Login Error - After login called, errorMessage must be shown with specific text." />
+        <item itemvalue="npm.run:selenium-standalone" />
+        <item itemvalue="npm.rundadadad" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="" />
+      <created>1531303369161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531303369161</updated>
+      <workItem from="1531303373637" duration="1220000" />
+      <workItem from="1531307565395" duration="1144000" />
+      <workItem from="1531310018778" duration="1327000" />
+      <workItem from="1531311729076" duration="10499000" />
+      <workItem from="1531384007986" duration="1067000" />
+      <workItem from="1531483171127" duration="4362000" />
+      <workItem from="1531727019417" duration="23718000" />
+      <workItem from="1531828727881" duration="7552000" />
+      <workItem from="1531846363976" duration="746000" />
+      <workItem from="1531898135540" duration="1767000" />
+      <workItem from="1531922635161" duration="11000" />
+      <workItem from="1534858197041" duration="14083000" />
+      <workItem from="1534932734463" duration="1821000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Login_page_Login_Error_-_After_login_called,_errorMessage_must_be_shown_with_specific_text_ - 2018.08.22 at 08h 42m 55s.xml">
+      <configuration name="Login page.Login Error - After login called, errorMessage must be shown with specific text." configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69317000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="2576" height="1056" extended-state="7" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28246754" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" sideWeight="0.122171946" side_tool="true" visible="true" weight="0.19739953" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3409091" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32768363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87782806" visible="true" weight="0.19739953" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/index.js.map" />
+        <option value="$PROJECT_DIR$/test/index.js" />
+        <option value="$PROJECT_DIR$/test/crossbrowser.js.map" />
+        <option value="$PROJECT_DIR$/test/crossbrowser.js" />
+        <option value="$PROJECT_DIR$/test/classPages/loginPage.js.map" />
+        <option value="$PROJECT_DIR$/test/classPages/loginPage.js" />
+        <option value="$PROJECT_DIR$/test/classPages/defaultPage.js.map" />
+        <option value="$PROJECT_DIR$/test/classPages/defaultPage.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-11T16-13-06.457Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-13T12-39-07.415Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-13T12-48-39.768Z.png" />
+    <entry file="file://$PROJECT_DIR$/3.png" />
+    <entry file="file://$PROJECT_DIR$/2.png" />
+    <entry file="file://$PROJECT_DIR$/1.png" />
+    <entry file="file://$PROJECT_DIR$/sign-up.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-16T08-36-32.256Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-16T09-42-21.493Z.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-gdpr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-complete3.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-complete4.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-complete5.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-complete1.png" />
+    <entry file="file://$PROJECT_DIR$/node_modules/webdriverio/build/lib/commands/moveToObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-complete2.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-gdpr2.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-gdpr1.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-additional-data.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-id.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/chai/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/crossbrowser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="57" column="6" selection-start-line="57" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helloworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/lstorage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/isenabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-address.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-name.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/sign-up-completed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-21T15-35-34.237Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-21T15-39-59.958Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-21T15-42-15.230Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T15-51-27.064Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T15-51-30.449Z.png" />
+    <entry file="file://$PROJECT_DIR$/test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T16-09-01.797Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-21T16-12-35.036Z.png" />
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T16-16-06.276Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T16-16-14.375Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/crossbrowser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-877">
+          <caret line="156" selection-start-line="156" selection-end-line="156" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T16-23-22.360Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_firefox_2018-08-21T16-23-22.289Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/classPages/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-22T07-40-49.011Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webdriverio/build/lib/commands/waitForExist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webdriverio/build/lib/commands/isExisting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/classPages/defaultPage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/classPages/loginPage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

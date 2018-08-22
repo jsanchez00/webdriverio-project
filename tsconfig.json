@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es2017",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "noResolve": false,
+        "suppressExcessPropertyErrors": true,
+        "lib": ["es2017", "dom", "es2017.object", "es2017.sharedmemory"],
+        "baseUrl": ".",
+        "traceResolution": true
+    },
+    "include": ["test/**/*.ts"],
+    "exclude":["node_modules"]
+}

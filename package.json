@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "run:selenium-standalone": "selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "@types/webdriverio": "^4.10.3",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0",
+    "selenium-standalone": "^6.15.1",
+    "typescript": "^2.7.1",
+    "wdio-allure-reporter": "^0.7.0",
+    "wdio-browserstack-service": "^0.1.16",
+    "wdio-junit-reporter": "^0.4.4",
+    "wdio-mocha-framework": "^0.6.2",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-webcomponents": "^1.1.0",
+    "webdriverio": "^4.13.1"
+  }
+}
