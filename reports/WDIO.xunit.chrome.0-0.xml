@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login_page" timestamp="2018-08-22T13:52:55" time="20.65" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="f957bc4a7f864889dc017c4486dfe9e5"/>
+      <property name="suiteName" value="Login page"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\index.js"/>
+    </properties>
+    <testcase classname="chrome.Login_page" name="Login_Error_After_login_called_errorMessage_must_be_shown_with_specific_text" time="6.785">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/window/current/maximize - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/url - {"url":"https://www1.ics.gencat.cat/sgrh20/es6/"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":""}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-1/clear - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-1/value - {"value":["0","7","0","8","9","0","7","4","0","W"],"text":"070890740W"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #password paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-3"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-3/clear - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-3/value - {"value":["1","2","3","4","5","6","7","a","a"],"text":"1234567aa"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #submit",false]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":{"ELEMENT":"0.02108180785133107-4"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-4/click - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":""}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":""}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":""}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":"Dades d'accés incorrectes"}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login .message-authentication-container .message-authentication",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.02108180785133107-2"}]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.02108180785133107-2/text - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":"Dades d'accés incorrectes"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Login_page" name="Login_OK_After_login_called_must_be_shown_a_guide" time="13.864">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/window/current/maximize - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/url - {"url":"https://www1.ics.gencat.cat/sgrh20/es6/"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.520946903849175-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #username-input paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.520946903849175-1"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.520946903849175-1/clear - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.520946903849175-1/value - {"value":["0","7","0","8","9","0","7","4","0","W"],"text":"070890740W"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #password paper-input-container::iron-input::input",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.520946903849175-2"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.520946903849175-2/clear - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.520946903849175-2/value - {"value":["1","2","3","4","5","6","7","a"],"text":"1234567a"}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-login uxl-busy-indicator::login uxl-login #submit",false]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":{"ELEMENT":"0.520946903849175-3"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/element/0.520946903849175-3/click - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",true]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":[{"ELEMENT":"0.520946903849175-4"}]}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6/execute - {"script":"return (function (selector, multiple) {\n    var selectors = selector.replace(/:skip-visible/i, '');\n    if (document.body.createShadowRoot || document.body.attachShadow) {\n        selectors = selector ... (939 more bytes)","args":["sgrh-app iron-pages::sgrh-shell app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view",false]}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":{"ELEMENT":"0.520946903849175-4"}}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/a22c7045339b85dc272229a8c3dce6d6 - {}
+RESULT: {"sessionId":"a22c7045339b85dc272229a8c3dce6d6","status":0,"value":null}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
