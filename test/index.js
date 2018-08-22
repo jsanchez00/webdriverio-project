@@ -45,7 +45,7 @@ describe('Sign-Up Page', () => {
         const copyPasswordInputSelector = `${signUpIdPageSelector} paper-input#copy paper-input-container::iron-input::input`;
         const forwardButtonSelector = `${navigationButtonsSelector} navigation-button-forward paper-icon-button`;
         const completeButtonSelector = `${navigationButtonsSelector} .actions paper-button`;
-        if (browser.isExisting(userChangedButtonSelector)) {
+        if (browser.isExisting(userChangedButtonSelector) && 1) {
             browser.click(userChangedButtonSelector);
         }
         browser.click(goSignUpPageButtonSelector);

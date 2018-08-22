@@ -48,7 +48,7 @@ describe('Sign-Up Page', () => {
         const forwardButtonSelector = `${navigationButtonsSelector} navigation-button-forward paper-icon-button`;
         const completeButtonSelector = `${navigationButtonsSelector} .actions paper-button`;
 
-        if(browser.isExisting(userChangedButtonSelector)){
+        if(browser.isExisting(userChangedButtonSelector) && 1){
             browser.click(userChangedButtonSelector);
         }
 
