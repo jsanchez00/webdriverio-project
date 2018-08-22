@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="" />
+    <list default="true" id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/WDIO.xunit.chrome.0-0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/WDIO.xunit.chrome.0-0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-address.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-completed.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-completed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-id.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-id.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1537">
-              <caret line="113" column="31" selection-start-line="112" selection-start-column="11" selection-end-line="113" selection-end-column="31" />
+            <state relative-caret-position="521">
+              <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -50,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wdio.conf.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wdio.conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3311">
-              <caret line="256" selection-start-line="256" selection-end-line="256" />
+            <state relative-caret-position="184">
+              <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url</find>
       <find>test</find>
       <find>firefox</find>
       <find>save</find>
@@ -95,12 +104,13 @@
       <find>rowsersta</find>
       <find>wait</find>
       <find>browsername</find>
-      <find>https</find>
       <find>setVa</find>
       <find>path</find>
       <find>Cannot read property 'replace' of null</find>
       <find>errorMessageSelector</find>
       <find>browserNAme</find>
+      <find>https</find>
+      <find>isVisi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,6 +174,11 @@
             <path>
               <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriverio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="errorShots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdriverio-project" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +302,7 @@
       <workItem from="1531922635161" duration="11000" />
       <workItem from="1534858197041" duration="14083000" />
       <workItem from="1534932734463" duration="1821000" />
-      <workItem from="1534938491192" duration="1325000" />
+      <workItem from="1534938491192" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="patch">
       <created>1534938569484</created>
@@ -317,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534939219457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="error image">
+      <created>1534941836773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534941836773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="error image">
+      <created>1534941855068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534941855068</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -326,7 +355,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70642000" />
+    <option name="totallyTimeSpent" value="71640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,19 +367,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32768363" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6968326" visible="true" weight="0.19739953" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32768363" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26839826" />
-      <window_info id="npm" order="2" sideWeight="0.30316743" side_tool="true" visible="true" weight="0.19739953" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28246754" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26694915" />
+      <window_info id="npm" order="2" sideWeight="0.30425057" side_tool="true" visible="true" weight="0.3311302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36864406" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3409091" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32768363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69574946" visible="true" weight="0.3311302" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -359,7 +389,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,10 +416,10 @@
     <MESSAGE value="reports directory" />
     <MESSAGE value="sign-up test" />
     <MESSAGE value="report" />
-    <option name="LAST_COMMIT_MESSAGE" value="report" />
+    <MESSAGE value="error image" />
+    <option name="LAST_COMMIT_MESSAGE" value="error image" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-11T16-13-06.457Z.png" />
     <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-13T12-39-07.415Z.png" />
     <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-13T12-48-39.768Z.png" />
     <entry file="file://$PROJECT_DIR$/3.png" />
@@ -523,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/classPages/loginPage.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -537,17 +559,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.ts">
+    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="113" column="31" selection-start-line="112" selection-start-column="11" selection-end-line="113" selection-end-column="31" />
+        <state relative-caret-position="184">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+    <entry file="file://$PROJECT_DIR$/test/classPages/loginPage.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3311">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        <state relative-caret-position="527">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-08-22T12-53-11.128Z.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
         </state>
       </provider>
     </entry>

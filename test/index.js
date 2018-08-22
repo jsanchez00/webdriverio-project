@@ -16,14 +16,14 @@ describe('Login page', () => {
     });
     it('Login Error - After login called, errorMessage must be shown with specific text.', () => {
         expect(browser.getText(loginPage_1.default.errorMessageSelector)).to.be.empty;
-        loginPage_1.default.loginAction('070890740W', '1234567aa');
+        loginPage_1.default.loginAction('047725797S', '1234567aa');
         browser.waitUntil(() => {
             return browser.getText(loginPage_1.default.errorMessageSelector);
         }, 20000, 'error message is not showed in 20s');
         expect(browser.getText(loginPage_1.default.errorMessageSelector)).to.be.equal('Dades d\'accés incorrectes');
     });
     it('Login OK - After login called, must be shown a guide.', () => {
-        loginPage_1.default.loginAction('070890740W', '1234567a');
+        loginPage_1.default.loginAction('047725797S', '32463');
         const guideSelector = `${path.shell} app-header-layout::iron-pages::sgrh-module-container #apps-container::sgrh-guide-view`;
         browser.waitForExist(guideSelector, 20000, 'board is not showed in 9s');
         expect($(guideSelector)).to.exist;
@@ -36,6 +36,7 @@ describe('Sign-Up Page', () => {
         browser.localStorage('DELETE', 'last-logged-in-user');
     });
     it('Sign-Up Process', () => {
+        const userChangedButtonSelector = `${path.login} #log-other-user`;
         const goSignUpPageButtonSelector = `${path.login} #signup`;
         const navigationButtonsSelector = `${path.signUp} navigation-buttons`;
         const signUpIdPageSelector = `${path.signUp} skeleton-carousel::sgrh-sign-up-id iron-form::form`;
@@ -44,6 +45,9 @@ describe('Sign-Up Page', () => {
         const copyPasswordInputSelector = `${signUpIdPageSelector} paper-input#copy paper-input-container::iron-input::input`;
         const forwardButtonSelector = `${navigationButtonsSelector} navigation-button-forward paper-icon-button`;
         const completeButtonSelector = `${navigationButtonsSelector} .actions paper-button`;
+        if (browser.isExisting(userChangedButtonSelector)) {
+            browser.click(userChangedButtonSelector);
+        }
         browser.click(goSignUpPageButtonSelector);
         browser.waitForExist(path.signUp, 5000);
         expect($(path.signUp)).to.exist;
@@ -100,6 +104,7 @@ describe('Sign-Up Page', () => {
         });
         browser.click(checkboxSelector);
         browser.saveScreenshot('./screenshots/sign-up-gdpr.png');
+        browser.click(completeButtonSelector);
         browser.saveScreenshot('./screenshots/sign-up-completed.png');
     });
 });
