@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="">
+    <list default="true" id="4dc3f063-adff-40dc-8a2b-73c53bf8c6b3" name="Default" comment="v1.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/WDIO.xunit.chrome.0-0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/WDIO.xunit.chrome.0-0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-address.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-completed.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-completed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/sign-up-id.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/sign-up-id.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +37,8 @@
       <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+            <state relative-caret-position="126">
+              <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -63,7 +55,7 @@
       <file leaf-file-name="wdio.conf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="1343">
               <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
             </state>
           </provider>
@@ -158,10 +150,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -302,7 +294,8 @@
       <workItem from="1531922635161" duration="11000" />
       <workItem from="1534858197041" duration="14083000" />
       <workItem from="1534932734463" duration="1821000" />
-      <workItem from="1534938491192" duration="2323000" />
+      <workItem from="1534938491192" duration="3311000" />
+      <workItem from="1535038892596" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="patch">
       <created>1534938569484</created>
@@ -346,16 +339,33 @@
       <option name="project" value="LOCAL" />
       <updated>1534941855068</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v1.0.0">
+      <created>1534942843831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534942843832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v1.0.1">
+      <created>1534943100656</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943100656</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Login_page_Login_Error_-_After_login_called,_errorMessage_must_be_shown_with_specific_text_ - 2018.08.22 at 08h 42m 55s.xml">
       <configuration name="Login page.Login Error - After login called, errorMessage must be shown with specific text." configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Login_page_Login_Error_-_After_login_called,_errorMessage_must_be_shown_with_specific_text_ - 2018.08.22 at 15h 03m 59s.xml">
+      <configuration name="Login page.Login Error - After login called, errorMessage must be shown with specific text." configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71640000" />
+    <option name="totallyTimeSpent" value="72997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,19 +378,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32768363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69491524" visible="true" weight="0.3311302" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32768363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.26694915" />
-      <window_info id="npm" order="2" sideWeight="0.30425057" side_tool="true" visible="true" weight="0.3311302" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36864406" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3409091" />
-      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32768363" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69574946" visible="true" weight="0.3311302" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="npm" order="2" sideWeight="0.30508474" side_tool="true" visible="true" weight="0.3311302" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36864406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34039548" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,6 +397,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +426,9 @@
     <MESSAGE value="sign-up test" />
     <MESSAGE value="report" />
     <MESSAGE value="error image" />
-    <option name="LAST_COMMIT_MESSAGE" value="error image" />
+    <MESSAGE value="v1.0.0" />
+    <MESSAGE value="v1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/errorShots/ERROR_chrome_2018-07-13T12-39-07.415Z.png" />
@@ -561,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="1343">
           <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
         </state>
       </provider>
@@ -578,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        <state relative-caret-position="126">
+          <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
         </state>
       </provider>
     </entry>
